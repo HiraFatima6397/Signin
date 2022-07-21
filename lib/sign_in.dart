@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:signin_screen/Screen1.dart';
-import 'package:signin_screen/screen3.dart';
+import 'package:signin_screen/signin_About.dart';
 
 import 'Stringconstant/Constant.dart';
 

@@ -37,12 +37,13 @@ class StringConstant{
   static const String Origamal = 'Origamal';
   static const String Photography = 'Photography';
   static const String Rockcliming = 'Rockcliming';
-  static const String Surling = 'Surling ';
+  static const String Surfing = 'Surfing ';
   static const String Tennis = 'Tennis';
   static const String Trainspotting = 'Trainspotting';
   static const String Yoga = 'Yoga';
   static const String userprofile = 'Userprofile@gmail.com';
   static const String pass = '.......';
+
 
 
 }
