@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:signin_screen/Screen2.dart';
-import 'package:signin_screen/screen4.dart';
+import :'package:flutter/material.dart';
+import :'package:signin_screen/sign_in.dart';
+import :'package:signin_screen/add_hobbies.dart';
 
-import 'Stringconstant/Constant.dart';
+
 
 class Screen3 extends StatefulWidget {
   const Screen3({Key? key}) : super(key: key);
@@ -54,7 +54,7 @@ class _Screen3State extends State<Screen3> {
                             InkWell(
                               onTap: () {
                                 Navigator.of(context).push(MaterialPageRoute(
-                                    builder: (context) => Screen2()));
+                                    builder: (context) => SignIn()));
                               },
                               child: Icon(
                                 Icons.arrow_back_ios,

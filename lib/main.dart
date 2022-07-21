@@ -1,10 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:signin_screen/Screen2.dart';
-import 'package:signin_screen/screen3.dart';
-import 'package:signin_screen/screen4.dart';
-
-import 'Screen1.dart';
-
 void main() {
   runApp(const MyApp());
 }
@@ -21,7 +15,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: Screen1(),
+      home:SignIn(),
     );
   }
 }

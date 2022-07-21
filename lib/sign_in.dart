@@ -1,19 +1,17 @@
 import 'package:flutter/material.dart';
-import 'package:signin_screen/Screen1.dart';
-import 'package:signin_screen/signin_About.dart';
+import 'package:signIn_screen/SignIn.dart';
+import 'package:signIn_screen/signIn_about.dart';
+import 'StringConstant/constant.dart';
 
-import 'Stringconstant/Constant.dart';
-
-class Screen2 extends StatefulWidget {
-  const Screen2({Key? key}) : super(key: key);
+class SignIn extends StatefulWidget {
+  const SignIn({Key? key}) : super(key: key);
 
   @override
-  State<Screen2> createState() => _Screen2State();
+  State<SignIn> createState() => _SignInState();
 }
 
-class _Screen2State extends State<Screen2> {
-  bool _isObscure = true;
-   @override
+class _SignInState extends State<SignIn> {
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: SingleChildScrollView(
@@ -36,7 +34,7 @@ class _Screen2State extends State<Screen2> {
                 Center(
                     child: Text(
                   StringConstant.helloagain,
-                  style: TextStyle(fontSize: 40, fontWeight: FontWeight.bold),
+                  style: TextStyle(AppStyles.BlackW500Font40),
                 )),
                 SizedBox(
                   height: 10,

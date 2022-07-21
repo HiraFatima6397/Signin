@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:signin_screen/signin_About.dart';
-
-import 'Stringconstant/Constant.dart';
+import 'package:signin_screen/signin_about.dart';
 
 class Screen4 extends StatefulWidget {
   const Screen4({Key? key}) : super(key: key);
@@ -29,7 +27,7 @@ class _Screen4State extends State<Screen4> {
     {'title': 'Origaml'},
     {'title': 'Photography'},
     {'title': 'Rock climing'},
-    {'title': 'Surling'},
+    {'title': 'Surfing'},
     {'title': 'Tennis'},
     {'title': 'Trainspotting'},
     {'title': 'Yoga'},
@@ -84,8 +82,8 @@ class _Screen4State extends State<Screen4> {
                     ),
                     Center(
                         child: Text(
-                      StringConstant.addhobbies,
-                      style:
+                          AppString.
+                       style:
                           TextStyle(fontSize: 30, fontWeight: FontWeight.w500),
                     )),
                     SizedBox(
